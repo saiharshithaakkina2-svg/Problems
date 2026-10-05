@@ -22,16 +22,16 @@
 # greet("sai")
 # greet("sai", "Good evening")  default aruguments
 
-# def total(*args):
-#     print(args)
-#     return sum(args)
+ def total(*args):
+     print(args)
+     return sum(args)
 
-# print(total(10, 20))
-# print(total(3,4,5,6,7))
+ print(total(10, 20))
+ print(total(3,4,5,6,7))
 
 
-# def profile(**kwargs):
-#     print(kwargs)
+ def profile(**kwargs):
+     print(kwargs)
 
-# profile(name="Ravi", age=22)
-# profile(name="Anu", city="Hyd", role="Dev")
+ profile(name="Ravi", age=22)
+ profile(name="Anu", city="Hyd", role="Dev")
